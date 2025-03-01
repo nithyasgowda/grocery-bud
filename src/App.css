@@ -268,7 +268,7 @@ ul {
   margin: 0 auto;
   margin-top: 8rem;
   max-width: 30rem;
-  background: rgba(0, 0, 0, 0.324);
+  background: #00000053;
   border-radius: var(--borderRadius);
   padding: 2rem;
   box-shadow: var(--shadow-1);
@@ -335,9 +335,14 @@ form h2,h6 {
     background-image:url(./assets/smallBgImage.jpg);
   }
   .section-center {
-    width: 60vw;
+    width: 90vw;
     margin: 0 auto;
     margin-top: 5rem;
     max-width: 30rem;
+    background: #0000008e;
   }
+  form h2{
+    font-size: 1.6rem;
+  }
+
 }
